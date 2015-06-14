@@ -1,0 +1,74 @@
+* {
+	border: 1px dashed black;
+}
+
+
+body {
+	margin: 0; 		
+    font-family: arial;
+}
+
+a {
+	color: #404040;
+	text-decoration: none;
+    font-size: 13px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	cursor: pointer;
+}
+
+.navbar {
+	height: 40px;
+	margin-top: 10px;
+	float: right;
+}
+
+.navbar a, .navbar img{
+	display: inline-block;
+	padding: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+footer {
+	background-color: #F2F2F2;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #E4E4E4;
+	margin: 0;
+	height: 40px;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+#left, #right {
+	padding: 10px 15px;
+}
+#left a, #right a {
+	padding: 0 15px;
+	color: #666666;
+}
+
+input[type=text] {
+	margin: auto;
+	background-color: black;
+}
+
+.center {
+	clear: both;
+}
+.center img, input {
+	margin: auto; 
+}
